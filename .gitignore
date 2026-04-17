@@ -16,9 +16,7 @@ jds/*
 !jds/.gitkeep
 
 # User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
+# Now Tracked in the Personal Project
 .update-dismissed
 .update-lock
 

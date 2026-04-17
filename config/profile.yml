@@ -1,0 +1,84 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Aarif Khan"
+  email: "aarifkhannitrr@gmail.com"
+  phone: "+91-9993883808"
+  location: "Bengaluru, India"
+  linkedin: "linkedin.com/in/aarif-khan-b1aa97171/"
+  # portfolio_url: "" (Add if available)
+  github: "github.com/aarifkhan7"
+  # twitter: "" (Add if available)
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # The ID starts with "D" and is 11 characters long.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "SDE-1"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Software Engineer (Backend)"
+      level: "New Grad / Entry-Level"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Full Stack Engineer"
+      level: "New Grad / Entry-Level"
+      fit: "secondary"
+    - name: "Systems Engineer"
+      level: "Entry-Level"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Associate Software Engineer at Tekion Corp, building production-grade APIs, integrations, and event-driven platforms."
+  # Your exit story — what makes you unique
+  exit_story: "Software Engineer at Tekion Corp with hands-on experience delivering production systems — OpenAPIs, webhooks, a third-party integration platform critical to the UK Ford go-to-market, and Kafka pipeline work. NIT Raipur CSE graduate (2025) with a strong algorithms foundation and hackathon track record."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Backend Development (Java/Spring Boot, Node.js)"
+    - "Platform & Integration Engineering (OpenAPI, Webhooks, Partner Integrations)"
+    - "Event-driven & distributed architectures (Kafka, Redis, ElasticSearch)"
+    - "Delivering under pressure — critical GTM deliverable, production bug resolution"
+    - "ML / Deep Learning (YOLOv8, service metrics forecasting, outage prediction)"
+    - "Advanced Data Structures & Algorithms (Codeforces Specialist)"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Ford Integration (UK Go-to-Market)"
+      url: "linkedin.com/in/aarif-khan-b1aa97171/"
+      hero_metric: "Critical deliverable for Tekion's UK market launch with Ford"
+    - name: "OpenAPIs & Webhooks Platform (Tekion)"
+      url: "linkedin.com/in/aarif-khan-b1aa97171/"
+      hero_metric: "Standardized external API access and event-driven integrations for core Tekion systems"
+    - name: "ML Service Metrics Forecasting (Tekion Hackathon)"
+      url: "linkedin.com/in/aarif-khan-b1aa97171/"
+      hero_metric: "Proactive outage prediction using ML on service metrics"
+    - name: "Real Time Object Detection"
+      url: "https://github.com/aarifkhan7/codeutsava7"
+      hero_metric: "Winner of CodeUtsava 7.0 Hackathon (Central India's largest)"
+    - name: "Location Solutions API Optimization"
+      url: "linkedin.com/in/aarif-khan-b1aa97171/"
+      hero_metric: "20% backend API performance increase"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://janesmith.dev/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "₹12,00,000 - ₹18,00,000"     # Estimated target comp for Indian New Grad
+  currency: "INR"
+  minimum: "₹10,00,000"                       # Walk-away number
+  location_flexibility: "Open to On-site, Hybrid, or Remote"
+
+location:
+  country: "India"
+  city: "Bengaluru"
+  timezone: "IST"
+  visa_status: "Indian Citizen / No sponsorship needed"
+  # For remote roles outside your country:
+  # onsite_availability: "Available for relocation within India"
